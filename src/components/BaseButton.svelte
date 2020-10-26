@@ -56,7 +56,7 @@
     pending = true
     const audio = playerCtx.addAudio(assetBasePath + selectFile())
     const playTimeout = setTimeout(() => {
-      window?.errorFormatter(
+      window.errorFormatter?.(
         $format('Voices are still loading. Please be patient...')
       )
     }, 1500)
@@ -73,7 +73,7 @@
         clearTimeout(playTimeout)
       })
       .catch((e) => {
-        window?.errorFormatter(
+        window?.errorFormatter?.(
           $format('Error in the playback:') + ' ' + String(e)
         )
       })
