@@ -2,16 +2,13 @@
   <header>
     <span>
       {$_('3rd YouTube live - STARt IN THE SCREEEN!')}
-      <a
-        href="https://youtube.com/watch?v=JNmmnB4bP0M"
-        target="_blank"
-      >
+      <a href="https://youtube.com/watch?v=JNmmnB4bP0M" target="_blank">
         {$_('Available at 21 JST on 10/19 →')}
       </a>
     </span>
     <svg
       id="close"
-      on:click="{(e) => (display = false)}"
+      on:click="{(_) => (display = false)}"
       viewBox="0 0 4 4"
       stroke="white"
       stroke-width="0.25"

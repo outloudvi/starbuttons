@@ -5,7 +5,7 @@
     <TopSettings />
   {/if}
   <Board
-    on:changeok="{(e) => {
+    on:changeok="{(_) => {
       boardMode = !boardMode
     }}"
     bind:this="{board}"
@@ -14,7 +14,7 @@
     <div
       id="switchBtn"
       class="stylizedBtn nonBaseBtn"
-      on:click="{(e) => {
+      on:click="{(_) => {
         board.toggleBoard()
       }}"
       tabindex="0"
@@ -32,7 +32,6 @@
   import TopSettings from './components/TopSettings.svelte'
   import BottomBar from './components/BottomBar.svelte'
   import Board from './components/Board.svelte'
-  import Topbar from './components/Topbar.svelte'
   import type { SiteConfig } from './types'
   import { format, _ } from 'svelte-i18n'
   // @ts-ignore
@@ -43,7 +42,7 @@
   export let testingConfig: SiteConfig
 
   let boardMode = false
-  let board
+  let board: any
   let disableAll = false
 
   function updateLocalizedTitle() {
