@@ -1,37 +1,35 @@
 <footer>
   <a
-    href="https://github.com/suisei-cn/starbuttons"
-    aria-label="GitHub repository of suisei.moe"
+    href="https://github.com/outloudvi/ui-buttons"
+    aria-label="GitHub repository of Ui Buttons"
     target="_blank"
   >
     <i class="icon-github"></i>
   </a>
   /
   <a
-    href="https://t.me/Hoshimachi_Suisei"
+    href="https://t.me/ShigureUi_Group"
     aria-label="Telegram Fan Group"
     target="_blank"
   >
     <i class="icon-telegram"></i>
-    <sup>(CN)</sup>
   </a>
   /
   <a
-    href="https://discord.com/invite/suiseicord"
-    aria-label="Discord Fan Group"
+    href="https://www.youtube.com/channel/UCt30jJgChL8qeT9VPadidSw"
+    aria-label="Shigure Ui YouTube Channel"
     target="_blank"
   >
-    <i class="icon-discord"></i>
-    <sup>(JP)</sup>
+    <i class="icon-youtube"></i>
   </a>
   /
   <a
-    href="https://discord.gg/4fmY8WC"
-    aria-label="Discord Fan Group"
+    href="https://www.youtube.com/c/UiBeam/about"
+    aria-label="UiBeam YouTube Channel"
     target="_blank"
   >
-    <i class="icon-discord"></i>
-    <sup>(EN)</sup>
+    <i class="icon-youtube"></i>
+    <sup>(Beam)</sup>
   </a>
   /
   <LanguageSwitch />
