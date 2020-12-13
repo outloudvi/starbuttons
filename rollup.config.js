@@ -5,6 +5,7 @@ import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 import sveltePreprocess from 'svelte-preprocess'
 import typescript from '@rollup/plugin-typescript'
+import css from 'rollup-plugin-css-only'
 import postcss from 'rollup-plugin-postcss'
 import copy from 'rollup-plugin-copy'
 
@@ -59,14 +60,14 @@ export default {
   },
   plugins: [
     svelte({
-      // enable run-time checks when not in production
-      dev: !production,
-      // we'll extract any component CSS out into
-      // a separate file - better for performance
-      css: (css) => {
-        css.write(production ? `bundle-${version}.css` : 'bundle.css')
+      compilerOptions: {
+        // enable run-time checks when not in production
+        dev: !production,
       },
       preprocess: sveltePreprocess(),
+    }),
+    css({
+      output: production ? `bundle-${version}.css` : 'bundle.css',
     }),
     // For importing scss from js
     postcss(),
