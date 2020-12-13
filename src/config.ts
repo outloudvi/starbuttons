@@ -1,10 +1,10 @@
 import type { SiteConfig } from './types'
 
 export default {
-  sounds: 'https://didjcksqhgjn7.cloudfront.net/sounds.json',
-  categories: 'https://didjcksqhgjn7.cloudfront.net/categories.json',
-  assets_path: 'https://didjcksqhgjn7.cloudfront.net/assets/',
-  notice: 'https://didjcksqhgjn7.cloudfront.net/notice.json',
+  sounds: 'https://outloudvi.github.io/ui-assets/sounds.json',
+  categories: 'https://outloudvi.github.io/ui-assets/categories.json',
+  assets_path: 'https://outloudvi.github.io/ui-assets/assets/',
+  notice: 'https://outloudvi.github.io/ui-assets/notice.json',
 } as SiteConfig
 
 export const testingConfig = {
