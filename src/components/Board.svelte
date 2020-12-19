@@ -160,7 +160,7 @@
     margin-top: ($table-height - $main-btn-height)/2;
     line-height: $main-btn-height;
     background: $btn-gradient-background;
-    font-size: 5rem;
+    font-size: 2rem;
 
     @media screen and (max-width: 1340px) {
       font-size: 2rem !important;
