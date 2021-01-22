@@ -159,6 +159,7 @@
   :global(#bigBtn .baseBtn) {
     margin-top: ($table-height - $main-btn-height)/2;
     line-height: $main-btn-height;
+    max-height: $main-btn-height;
     background: $btn-gradient-background;
     font-size: 2rem;
 
