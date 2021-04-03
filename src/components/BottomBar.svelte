@@ -24,7 +24,7 @@
   </a>
   /
   <a
-    href="https://www.youtube.com/c/UiBeam/about"
+    href="https://www.youtube.com/c/UiBeam"
     aria-label="UiBeam YouTube Channel"
     target="_blank"
   >
